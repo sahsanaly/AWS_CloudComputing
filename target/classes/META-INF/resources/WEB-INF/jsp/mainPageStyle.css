@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.user-area {
+    width: 30%;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.subscription-area {
+    width: 30%;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.query-area {
+    width: 30%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.logout-link {
+    margin-top: 20px;
+    text-align: center;
+}
+.music-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.music-title {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.music-year {
+    margin-right: 10px;
+}
+.music-artist {
+    margin-right: 10px;
+}
+.music-image {
+    height: 50px;
+    margin-right: 10px;
+}
+.remove-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscribe-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.query-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.query-input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.query-result {
+    margin-top: 10px;
+}
+.query-error {
+    color: #e74c3c;
+    font-weight: bold;
+    text-align: center;
+}
+
+
